@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnSelecionar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Selecionar Imagem" />
+
+    <ImageView
+        android:id="@+id/ivOriginal"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:background="#E0E0E0"
+        android:scaleType="fitCenter" />
+
+    <Button
+        android:id="@+id/btnSegmentar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="2. Realizar Segmentação"
+        android:enabled="false" />
+
+    <ImageView
+        android:id="@+id/ivMascara"
+        android:layout_width="256dp"
+        android:layout_height="256dp"
+        android:layout_marginTop="16dp"
+        android:background="#E0E0E0"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>
